@@ -3,6 +3,7 @@ from textblob import TextBlob
 import requests
 import nltk
 import pandas as pd
+# uncomment below line if running for the first time
 #nltk.download('vader_lexicon')
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
